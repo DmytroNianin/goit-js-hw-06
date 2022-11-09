@@ -13,6 +13,6 @@ function handleFormSubmint(e) {
     return alert('Все поля должны быть заполнены!');
   }
 
-  console.log(`Email: ${email.value}, Password: ${password.value}`);
+  console.log({ Email: email.value, Password: password.value });
   e.currentTarget.reset();
 }
